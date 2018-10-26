@@ -83,10 +83,10 @@
 		04A77BB0170FC75200A50173 /* Spotify Notifications-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spotify Notifications-Prefix.pch"; sourceTree = "<group>"; };
 		04A77BB4170FC75200A50173 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		04A77BB5170FC75200A50173 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04A77BB8170FC75300A50173 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		04A77BC1170FC7E600A50173 /* Spotify Notifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Spotify Notifications.entitlements"; sourceTree = "<group>"; };
 		04A77BC217104FEE00A50173 /* status_bar_colour.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = status_bar_colour.tiff; sourceTree = "<group>"; };
 		04C5E40618133BB000956039 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		804A77CB218384A6008EEB91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		961C56751BC93CFF00E0BF5A /* UserDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = UserDefaults.plist; sourceTree = "<group>"; };
 		96694FAC1BCD39BC009CAFC8 /* Spotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spotify.h; sourceTree = "<group>"; };
 		96694FAD1BCD39D5009CAFC8 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
@@ -257,6 +257,7 @@
 				fr,
 				it,
 				ja,
+				Base,
 			);
 			mainGroup = 04A77B96170FC75200A50173;
 			productRefGroup = 04A77BA0170FC75200A50173 /* Products */;
@@ -349,7 +350,7 @@
 		04A77BB7170FC75300A50173 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				04A77BB8170FC75300A50173 /* en */,
+				804A77CB218384A6008EEB91 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -453,7 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -478,7 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
